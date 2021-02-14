@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cold{
+    background-color: crimson;
+    width: 100%;
+    height: 40px;
+}
+body{
+    background-color: lightgray;
+}
+
+#blood{
+  width: 1000px;
+  height: 40px;
+    margin: 0 auto;
+  position: relative;
+    background-color: crimson;
+}
+#red{
+    padding: 1px;
+    font-size: 40px;
+    position: absolute;
+    height: 40px;
+
+}
+i{
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 4px;
+    position: absolute;
+    right: 10px;
+    margin-top: 5px;
+    margin-right: 23px;
+}
+#parameter a {
+    text-decoration: none;
+    padding: 8px;
+   color:  whitesmoke;
+}
+#parameter{
+    text-align: right;
+    position: absolute;
+    right: 70px;
+    bottom: 10px;
+    
+}
+
+#gold{
+    width: 1000px;
+    height: 300px;
+    background-color: #fcfcfc;
+    border: 1px  double  black;
+    margin: auto;
+    margin-top: 9px;
+    display: flex;
+   
+}
+
+#gold1{
+    width: 250px;
+    height: 300px;
+    border: 0px solid black;
+    
+}
+#gold2{
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    border-bottom: rgb(255, 250, 250);
+    border-top: white;
+}
+
+#gold3{
+    width: 250px;
+    height: 300px;
+    border: 0px solid black;
+    
+
+}
+#gold4{
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    border-bottom: white;
+    border-top: white;
+    border-right: white;
+}
+
+#footer{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border: 1px  black;
+   
+    margin-top: 80px;
+}
+.img1{
+  width: 250px;
+  height: 80px;
+  padding-top: 30px;
+  
+}
+.img2{
+    width: 250px;
+    height: 80px;
+    padding-top: 30px;
+    
+  }
+  .img3{
+    width: 250px;
+    height: 80px;
+    padding-top: 30px;
+    
+  }
+  .img4{
+    width: 250px;
+    height: 80px;
+    padding-top: 30px;
+    
+  }
+    section article span ul{
+      list-style-type: none;
+      display: flex;
+      
+  }
+li:hover{
+    background-color: rgb(43, 43, 44);
+}
+
+  #list ul{
+      display: none;
+      
+  }
+
+
+ 
+
+  #list ul {
+      width: 150px;
+      
+      border: 1px solid rgb(0, 0, 0);
+      position: absolute;
+      
+      margin-left: 9px;
+      margin-top: 0px;
+   
+  }
+  #list li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: darkmagenta;
+      
+}
+  #list ul li{
+      width: 150px;
+      height: 40px;
+      margin-top: auto;
+      text-align: center;
+      background: #b1ffd8;
+      padding: 2px;
+      position: relative;
+     
+     
+      border: 1px solid black; 
+  }
+
+ 
